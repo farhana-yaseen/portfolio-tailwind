@@ -9,7 +9,7 @@ import Projects from "@/components/Projects";
 
 export default function Home() {
   return (
-    <div>
+    <div className="bg-black">
       <HomePage/>
       <div className="w-full border-2 border-dashed border-purple-500 bg-black"></div>
       <AboutUs/>

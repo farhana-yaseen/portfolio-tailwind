@@ -13,7 +13,7 @@ export default function Home() {
             <div className="flex items-center">
 
                 {/* Left content (Image + Typewriter Effect) */}
-                <div className="w-full h-screen bg-black p-3 lg:p-5 2xl:p-10">
+                <div className="w-full h-full bg-black my-3 mx-3 lg:my-10 lg:mx-10 xl:my-16 xl:mx-16 2xl:my-20 2xl:mx-20">
 
                     {/* Purple circle */}
                     <div className="mb-10 md:mb-5 2xl:mb-10">
@@ -23,7 +23,7 @@ export default function Home() {
                     <h1 className="text-purple-500 text-xl sm:text-2xl md:text-3xl xl:text-4xl 2xl:text-6xl text-center font-bold ">Hi Everyone.</h1>
 
                     {/* Typewriter Effect */}
-                    <div className="text-white font-bold text-6xl md:text-7xl xl:text-7xl 2xl:text-9xl p-8 md:p-5 lg:p-5 xl:p-12 2xl:p-16 text-center leading-relaxed max-w-full h-32 lg:h-20 xl:h-28 mb-10 lg:mb-8 2xl:mb-20">
+                    <div className="text-white font-bold text-6xl md:text-7xl xl:text-7xl 2xl:text-9xl py-16 lg:py-5 xl:py-12 2xl:py-16 text-center leading-relaxed w-full h-20 ">
                         <Typewriter
                             options={{
                                 strings: ['I am Farhana'],
