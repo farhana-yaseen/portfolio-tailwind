@@ -8,7 +8,7 @@ export default function Home() {
 
     return (
 
-        <div className="text-black font-serif w-full h-screen">
+        <div className="text-black font-serif w-full h-full">
 
             <div className="flex items-center">
 
@@ -23,7 +23,7 @@ export default function Home() {
                     <h1 className="text-purple-500 text-xl sm:text-2xl md:text-3xl xl:text-4xl 2xl:text-6xl text-center font-bold ">Hi Everyone.</h1>
 
                     {/* Typewriter Effect */}
-                    <div className="text-white font-bold text-6xl md:text-7xl lg:text-7xl 2xl:text-9xl p-8 md:p-5 lg:p-5 xl:p-12 2xl:p-16 text-center leading-relaxed max-w-full h-32 lg:h-20 xl:h-28 mb-10 lg:mb-8 2xl:mb-20">
+                    <div className="text-white font-bold text-6xl md:text-7xl xl:text-7xl 2xl:text-9xl p-8 md:p-5 lg:p-5 xl:p-12 2xl:p-16 text-center leading-relaxed max-w-full h-32 lg:h-20 xl:h-28 mb-10 lg:mb-8 2xl:mb-20">
                         <Typewriter
                             options={{
                                 strings: ['I am Farhana'],
@@ -45,7 +45,7 @@ export default function Home() {
                 </div>
 
                 {/* Right content (Portfolio Section) */}
-                <div className="bg-purple-500 w-80 lg:w-[450px] xl:w-[550px] 2xl:w-1/2 h-screen flex items-center flex-col space-y-20 py-10 ">
+                <div className="bg-purple-500 w-80 lg:w-[400px] xl:w-[500px] 2xl:w-1/2 h-screen flex items-center flex-col space-y-20 py-10 ">
                     <h1 className=" text-3xl sm:text-2xl md:text-3xl text-center lg:text-4xl xl:text-5xl 2xl:text-6xl font-bold ">Portfolio</h1>
                     {/* Profile Picture*/}
                     <div className="flex justify-center items-center">
