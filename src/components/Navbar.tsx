@@ -14,7 +14,7 @@ export default function Navbar() {
     };
 
     return (
-        <nav className={"font-serif font-bold text-sm md:text-lg lg:text-xl xl:text-2xl 2xl:text-3xl lg:font-extrabold"}>
+        <nav className={" bg-white font-serif font-bold text-sm md:text-lg lg:text-xl xl:text-2xl 2xl:text-3xl lg:font-extrabold"}>
             <div className={"flex items-center justify-between font-bold p-5"}>
 
                 {/* Logo */}

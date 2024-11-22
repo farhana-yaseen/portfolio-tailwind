@@ -8,7 +8,7 @@ export default function ContactUs() {
         <div className="bg-black text-white p-10">
 
             <div className="s font-serif text-center px-10 md:px-16 lg:px-20">
-                <div className="text-3xl lg:text-5xl border-2 border-black p-2 ">  
+                <div className="text-2xl lg:text-5xl border-2 border-black p-2 ">  
                 <Typewriter 
                     options={{
                         strings: ['Get in Touch'],

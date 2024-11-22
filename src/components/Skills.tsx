@@ -11,7 +11,7 @@ export default function Skills() {
     
                 <div className="p-10 md:p-16 lg:p-20 px-10 md:px-20 lg:px-32">
                     
-                <h1 className="bg-purple-500 text-2xl md:text-3xl lg:text-4xl xl:text-5xl text-center font-bold mb-10 lg:mb-12 xl:mb-16 rounded-md ">Personal Skills</h1>
+                <h1 className="bg-purple-500 lg:p-2 2xl:p-3 text-2xl md:text-3xl lg:text-4xl xl:text-5xl text-center font-bold mb-10 lg:mb-12 xl:mb-16 rounded-md ">Personal Skills</h1>
                 
                 <div className="grid grid-cols-2 lg:grid-cols-3 gap-5 lg:gap-10">
                 {/* Ms-Office */}

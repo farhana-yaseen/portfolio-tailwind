@@ -28,7 +28,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        style={{backgroundImage:"url(/form.jpg)"}} className="h-screen bg-cover bg-center"
+    className="bg-black"
       >
         <Navbar/>
         {children}
